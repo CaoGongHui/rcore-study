@@ -1,0 +1,19 @@
+README.md
+  s_21da386e63c3bb::t_830a8cc34f4f19 79-80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c34de5cfef5671cb405430f641fb2b5b108006fa",
+  "prompts": {},
+  "sessions": {
+    "s_21da386e63c3bb": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a20c9e-3a49-7212-bfd0-3abdb1adf634",
+        "model": "deepseek-v4.1-flash-1017"
+      },
+      "human_author": "gonghui_cao <gonghui_cao@intsig.net>"
+    }
+  }
+}
