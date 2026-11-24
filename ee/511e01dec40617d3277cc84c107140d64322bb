@@ -1,0 +1,23 @@
+Makefile
+  s_21da386e63c3bb::t_274553c5aae807 4,6,14-15,35-48
+notes/os/2026-11-24-1613-我在这里学习rcore这个rust编写操作系统的tutorial-怎么把跟你的问.md
+  s_21da386e63c3bb::t_28cad3b30b6d2f 5,136-683
+notes/rCore-Tutorial-v3/2026-11-24-1635-操作系统启动的地址-是固定在0x80000000-吗.md
+  s_21da386e63c3bb::t_cf8a660b48a0fe 1-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ee511e01dec40617d3277cc84c107140d64322bb",
+  "prompts": {},
+  "sessions": {
+    "s_21da386e63c3bb": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a20c9e-3a49-7212-bfd0-3abdb1adf634",
+        "model": "deepseek-v4.1-flash-1017"
+      },
+      "human_author": "gonghui_cao <gonghui_cao@intsig.net>"
+    }
+  }
+}
