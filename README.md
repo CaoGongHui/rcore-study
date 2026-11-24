@@ -31,13 +31,19 @@ cd book && make html SPHINXBUILD=.venv/bin/sphinx-build
 
 ## 实验（kernel/）
 
-自己的内核代码，按教材章节逐步演进：
+自己的内核代码，按教材章节逐步演进。目录内自带 Makefile：
 
 ```bash
 cd kernel
-cargo build                 # 目标平台 riscv64gc-unknown-none-elf，见 .cargo/config.toml
-cargo run                   # 配好 runner 后可直接在 QEMU 里跑
+make build        # 编译（release；PROFILE=debug 切 debug）
+make headers      # 看各段地址，.text 应为 0x80200000
+make objdump      # 看开头几条反汇编
+make run          # 剥出 os.bin 并在 QEMU 里跑（退出：Ctrl+A 再按小写 x）
+make run-gdb      # 停在第一条指令，另开终端 gdb 连 :1234
 ```
+
+rustsbi 用的是外部教程仓里的那份（`~/github/rCore-Tutorial-v3/bootloader/rustsbi-qemu.bin`），
+换位置就 `SBI=/path/to/rustsbi-qemu.bin make run`。
 
 需要参考官方实现时用外部目录 `/home/cgh/github/rCore-Tutorial-v3`（含 ch1~ch8 分支），
 不放进本仓库，避免 365MB 的重复拷贝。
