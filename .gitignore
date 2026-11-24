@@ -1,0 +1,13 @@
+# Rust 构建产物
+target/
+**/target/
+Cargo.lock
+
+# 教材构建产物与虚拟环境（book 是 submodule，这里再兜一层）
+book/build/
+book/.venv/
+book/os-lectures/
+
+# 临时文件
+*.log
+.DS_Store
