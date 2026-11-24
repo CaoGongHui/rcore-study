@@ -1,0 +1,23 @@
+kernel/Makefile
+  s_21da386e63c3bb::t_3ff1808dc6a1cd 1-61
+  s_21da386e63c3bb::t_4d102f47a9c185 62-69
+README.md
+  s_21da386e63c3bb::t_2c1b4254a2f4db 34,38-42,45-46
+  s_21da386e63c3bb::t_f684d849ddd35f 47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0f48f7111f25d9c4cc13ff579a63f75b564e0aa2",
+  "prompts": {},
+  "sessions": {
+    "s_21da386e63c3bb": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a20c9e-3a49-7212-bfd0-3abdb1adf634",
+        "model": "deepseek-v4.1-flash-1017"
+      },
+      "human_author": "gonghui_cao <gonghui_cao@intsig.net>"
+    }
+  }
+}
