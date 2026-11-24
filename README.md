@@ -76,4 +76,6 @@ make book     # 构建教材 HTML
 make serve    # 本地预览教材
 make notes    # 导出当前会话的问答笔记
 make check    # kernel 编译检查
+make status   # 看工作区状态
+make push     # 提交全部改动并推送（可带说明：make push MSG="ch1: 完成实验"）
 ```
