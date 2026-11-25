@@ -1,0 +1,22 @@
+kernel/.cargo/config.toml
+  h_68fffa46475b30 3-8
+kernel/src/entry.asm
+  h_68fffa46475b30 1-5
+kernel/src/linker.ld
+  h_68fffa46475b30 1
+kernel/src/main.rs
+  h_68fffa46475b30 4-7
+notes/os/2026-11-24-1613-我在这里学习rcore这个rust编写操作系统的tutorial-怎么把跟你的问.md
+  h_68fffa46475b30 148-1180
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c40e6da3226b324f1fd69919f4fe372df0211cb7",
+  "prompts": {},
+  "humans": {
+    "h_68fffa46475b30": {
+      "author": "gonghui_cao <gonghui_cao@intsig.net>"
+    }
+  }
+}
